@@ -19,6 +19,7 @@ section.filters button{
     margin: auto 30px;
 }
 section.filters button:hover{
+    cursor: pointer;
     opacity: 90%;
 }
 section.filters div.locations{

@@ -1,18 +1,19 @@
-.places {
-    max-width: 1000px;
-    margin: 0px auto;
-    font-size: 30px;
+.places{
+    margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    max-width: 1000px;
+    flex-wrap: wrap;
   }
-  .places h1 {
-    width: 100%;
-    padding-left: 22px;
+  h1{
+    text-align: left;
+    vertical-align: top;
+    font-size: 30px;
+    margin-top: 30px;
   }
-  
-  .places article {
+  .places article{
     width: 390px;
+    height: 50px;
     padding: 20px;
     margin: 20px;
     border: 1px solid red;
@@ -20,7 +21,7 @@
     display: flex;
     justify-content: center;
   }
-  
   .places article h2 {
     font-size: 30px;
   }
+

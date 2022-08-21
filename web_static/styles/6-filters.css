@@ -17,6 +17,7 @@ section.filters {
     margin: auto 30px;
   }
   section.filters button:hover {
+    cursor: pointer;
     opacity: 90%;
   }
   section.filters div.locations,
@@ -40,14 +41,14 @@ section.filters {
     margin-bottom: 0px;
     margin-left: 50px;
   }
-  div.locations h4,
+  /* div.locations h4,
   div.amenities h4 {
     font-weight: 400;
     font-size: 14px;
     margin: 4px auto;
     margin-left: 50px;
     margin-bottom: 16px;
-  }
+  } */
   ul.popover {
     list-style: none;
     border: 1px solid #dddddd;
@@ -74,6 +75,10 @@ section.filters {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+
+  }
+  section.filters div.amenities{
+    text-align: center;
   }
   div.locations ul.popover {
     padding-bottom: 45px;
